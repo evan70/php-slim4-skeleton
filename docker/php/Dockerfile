@@ -19,7 +19,7 @@ RUN apk add --update --no-cache \
     rm -rf /var/cache/apk/*
 
 # Timezone
-ENV TZ=America/Sao_Paulo
+ENV TZ=Europe/Bratislava
 RUN echo date.timezone = $TZ > ${PHP_INI_DIR}/conf.d/docker-php-ext-timezone.ini
 
 # Configure php dependency

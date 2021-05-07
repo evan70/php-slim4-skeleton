@@ -2,7 +2,7 @@ FROM nginx:1.19.7-alpine
 
 # Environements
 ENV WORKDIR=/home/app
-ENV TZ=America/Sao_Paulo
+ENV TZ=Europe/Bratislava
 
 RUN apk add --update --no-cache tzdata
 
